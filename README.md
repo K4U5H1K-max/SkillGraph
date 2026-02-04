@@ -1,6 +1,6 @@
 # Personalized Learning Roadmap Generator
 
-A CLI-based system that generates personalized learning roadmaps by combining AI conversation, preference analysis, and adaptive roadmap generation.
+A CLI and Web-based system that generates personalized learning roadmaps by combining AI conversation, preference analysis, and adaptive roadmap generation.
 
 ## 🎯 Overview
 
@@ -12,6 +12,38 @@ This project orchestrates a complete personalized learning experience:
 4. **Personalization** - Analyzes user profile and adjusts topic priorities, hours, and recommendations
 5. **Roadmap Generation** - LLM generates a customized roadmap matching user preferences
 6. **Output** - Displays and saves the personalized roadmap
+
+## 🚀 Two Usage Modes
+
+### 🌐 **Web Application** (Recommended)
+Beautiful, minimalist UI with curved design and smooth animations.
+
+**Quick Start:**
+```bash
+# Install dependencies
+pip install -r requirements-web.txt
+
+# Start servers (Windows)
+start.bat
+
+# Or manually:
+python app.py              # Backend
+cd frontend && python -m http.server 8000  # Frontend
+```
+
+Then open: `http://localhost:8000`
+
+📖 See [WEB_README.md](WEB_README.md) for detailed web app documentation.
+
+### 💻 **Command Line Interface**
+Terminal-based orchestration for automation or scripting.
+
+**Quick Start:**
+```bash
+python main.py
+```
+
+Follow the interactive prompts in your terminal.
 
 ## 📁 Project Structure
 

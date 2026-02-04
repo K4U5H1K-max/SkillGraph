@@ -89,6 +89,11 @@ conversion/output/
 # Main orchestrator output (user profiles, personalized roadmaps)
 output/
 
+# Flask instance and cache
+instance/
+*.pyc
+__pycache__/
+
 # If any temporary inputs or scratch files are created, ignore here:
 # conversion/input/tmp/
 

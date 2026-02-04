@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Learning Roadmap</title>
+    <link rel="stylesheet" href="styles/roadmap.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Roadmap Section -->
+        <section class="roadmap-section" id="roadmapSection">
+            <div class="section-header">
+                <button class="back-button" onclick="window.location.href='index.html'">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Back
+                </button>
+                <h1 class="section-title" id="roleTitle">Loading...</h1>
+                <p class="section-subtitle">Your preset learning path</p>
+            </div>
+
+            <div class="roadmap-container">
+                <div class="roadmap-tree" id="roadmapTree">
+                    <!-- Roadmap will be injected here -->
+                </div>
+            </div>
+
+            <div class="action-footer">
+                <button class="primary-button" id="startConversationBtn">
+                    Start Personalization
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- Conversation Section -->
+        <section class="conversation-section hidden" id="conversationSection">
+            <div class="section-header">
+                <h2 class="section-title">Let's personalize your roadmap</h2>
+                <p class="section-subtitle">Tell us about your background and goals</p>
+            </div>
+
+            <div class="chat-container">
+                <div class="messages-container" id="messagesContainer">
+                    <!-- Messages will be appended here -->
+                </div>
+
+                <div class="input-container">
+                    <textarea 
+                        class="chat-input" 
+                        id="chatInput" 
+                        placeholder="Type your answer here..."
+                        rows="1"
+                    ></textarea>
+                    <button class="send-button" id="sendButton">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <button class="done-button" id="doneButton">
+                    I'm done answering
+                </button>
+            </div>
+        </section>
+
+        <!-- Personalized Roadmap Section -->
+        <section class="personalized-section hidden" id="personalizedSection">
+            <div class="section-header">
+                <h2 class="section-title">Your Personalized Roadmap</h2>
+                <p class="section-subtitle">Tailored to your experience and goals</p>
+            </div>
+
+            <div class="loading-state" id="loadingState">
+                <div class="spinner"></div>
+                <p>Creating your personalized roadmap...</p>
+            </div>
+
+            <div class="roadmap-container hidden" id="personalizedRoadmapContainer">
+                <div class="roadmap-tree" id="personalizedRoadmapTree">
+                    <!-- Personalized roadmap will be injected here -->
+                </div>
+            </div>
+
+            <div class="action-footer hidden" id="finalActions">
+                <button class="secondary-button" onclick="window.location.href='index.html'">
+                    Start Over
+                </button>
+                <button class="primary-button" id="downloadButton">
+                    Download Roadmap
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts/roadmap.js"></script>
+</body>
+</html>
