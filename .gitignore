@@ -86,6 +86,9 @@ Thumbs.db
 # Conversion pipeline output products (generated JSON maps/semantics)
 conversion/output/
 
+# Main orchestrator output (user profiles, personalized roadmaps)
+output/
+
 # If any temporary inputs or scratch files are created, ignore here:
 # conversion/input/tmp/
 

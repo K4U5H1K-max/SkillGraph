@@ -1,23 +1,32 @@
 # personalizer/prompt.py
 
 SYSTEM_PROMPT = """
-You are a roadmap personalization engine.
+You are a learning roadmap personalization engine.
 
-You will receive:
-1. A semantic roadmap (skills, prerequisites, difficulty).
-2. A user profile (skills, experience, time commitment).
+RULES:
+- You are given an existing semantic roadmap.
+- You MUST NOT invent new skills.
+- You MUST NOT remove skills.
+- You may ONLY annotate existing skills.
+- Output JSON only. No explanations.
 
-Rules:
-- DO NOT create new skills.
-- DO NOT modify skill names.
-- ONLY reference skills present in the semantic roadmap.
-- Output JSON ONLY.
-- Output MUST follow the provided schema.
-- Personalization must respect prerequisites.
-
-Goal:
-Return a personalization overlay that:
-- Hides skills the user already knows well
-- Boosts weak or critical skills
-- Adjusts learning order based on time constraints
+Allowed fields per skill:
+- priority: "high" | "medium" | "low"
+- recommended: true | false
+- start_week: integer
+- adjusted_hours: integer
 """
+
+def build_prompt(user_profile: dict, semantic_roadmap: dict) -> dict:
+    return {
+        "user_profile": user_profile,
+        "semantic_skills": [
+            {
+                "id": s["id"],
+                "level": s["level"],
+                "estimated_hours": s["estimated_hours"],
+                "prerequisites": s["prerequisites"]
+            }
+            for s in semantic_roadmap["skills"]
+        ]
+    }

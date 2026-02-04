@@ -1,27 +1,19 @@
 # personalizer/schemas.py
 
-PERSONALIZATION_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "hide": {
-            "type": "array",
-            "items": {"type": "string"}
-        },
-        "boost": {
-            "type": "array",
-            "items": {"type": "string"}
-        },
-        "deprioritize": {
-            "type": "array",
-            "items": {"type": "string"}
-        },
-        "timeline": {
-            "type": "object",
-            "additionalProperties": {
-                "type": "array",
-                "items": {"type": "string"}
-            }
-        }
-    },
-    "additionalProperties": False
+ALLOWED_FIELDS = {
+    "priority",
+    "recommended",
+    "start_week",
+    "adjusted_hours"
 }
+
+def validate_llm_output(output: dict):
+    if "skills" not in output:
+        raise ValueError("LLM output must contain 'skills'")
+
+    for skill_id, updates in output["skills"].items():
+        for key in updates:
+            if key not in ALLOWED_FIELDS:
+                raise ValueError(
+                    f"Invalid field '{key}' for skill '{skill_id}'"
+                )
