@@ -1,0 +1,63 @@
+GAME DEVELOPER
+│
+├── Client Side Development
+│
+├── Game Mathematics
+│   ├── Linear Algebra
+│   │   ├── Vectors, Matrices
+│   │   ├── Transformations
+│   │   └── Quaternions
+│   ├── Geometry
+│   ├── Projections
+│   ├── Curves
+│   │   ├── Bezier
+│   │   ├── Hermite
+│   │   └── Catmull-Rom
+│
+├── Programming Languages
+│   ├── C / C++
+│   ├── C#
+│   ├── Rust
+│   ├── Python
+│   └── GDScript
+│
+├── Game Engines
+│   ├── Unity
+│   ├── Unreal Engine
+│   └── Godot
+│
+├── Game Physics
+│   ├── Dynamics
+│   ├── Collision Detection
+│   │   ├── Broad Phase
+│   │   └── Narrow Phase
+│   ├── CCD
+│   └── Bounding Volumes
+│
+├── Computer Graphics
+│   ├── Rendering Pipeline
+│   ├── Shaders
+│   ├── Ray Tracing
+│   ├── Rasterization
+│   └── Sampling
+│
+├── Graphics APIs
+│   ├── OpenGL
+│   ├── Vulkan
+│   ├── DirectX
+│   ├── Metal
+│   └── WebGL
+│
+├── Game AI
+│   ├── Decision Trees
+│   ├── State Machines
+│   ├── Behavior Trees
+│   ├── Reinforcement Learning
+│   └── Pathfinding
+│
+├── Advanced Rendering
+│   ├── Physically Based Rendering
+│   ├── Real-Time Ray Tracing
+│   └── Optimization Techniques
+│
+└── Keep Improving Skills

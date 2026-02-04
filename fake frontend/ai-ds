@@ -1,0 +1,54 @@
+AI & DATA SCIENTIST
+│
+├── 1. Mathematics
+│   ├── Linear Algebra
+│   ├── Calculus
+│   ├── Mathematical Analysis
+│   └── Differential Calculus
+│
+├── 2. Statistics
+│   ├── Statistics & CLT
+│   ├── Hypothesis Testing
+│   ├── Probability & Sampling
+│   ├── A/B Testing
+│   ├── Experiment Design
+│   ├── Test Sensitivity (MDE, CUPED)
+│   └── Ratio Metrics
+│
+├── 3. Econometrics
+│   ├── Prerequisites of Econometrics
+│   ├── Regression
+│   ├── Time Series
+│   ├── Distribution Fitting
+│   ├── ARIMA Models
+│   └── Forecasting
+│
+├── 4. Coding
+│   ├── Python Programming
+│   ├── Data Structures & Algorithms (Python)
+│   └── SQL
+│
+├── 5. Exploratory Data Analysis
+│   ├── Data Understanding
+│   ├── Data Visualization
+│   └── EDA with Pandas & Seaborn
+│
+├── 6. Machine Learning
+│   ├── Supervised Learning
+│   ├── Unsupervised Learning
+│   ├── Ensemble Methods
+│   └── Neural Networks
+│
+├── 7. Deep Learning
+│   ├── Fully Connected Networks
+│   ├── CNNs
+│   ├── RNNs / LSTMs
+│   ├── Transformers
+│   └── Transfer Learning
+│
+├── 8. MLOps
+│   ├── Model Deployment
+│   ├── CI/CD for ML
+│   └── Monitoring
+│
+└── Keep Learning

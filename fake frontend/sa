@@ -1,0 +1,119 @@
+Software Architect
+│
+├── 1. Understand the Basics
+│   ├── What is Software Architecture?
+│   ├── What is a Software Architect?
+│   └── Levels of Architecture
+│       ├── Application Architecture
+│       ├── Solution Architecture
+│       └── Enterprise Architecture
+│
+├── 2. Responsibilities
+│   ├── Technology Decisions
+│   ├── Design & Architecture Decisions
+│   ├── Requirements Elicitation
+│   ├── Documentation
+│   ├── Enforcing Standards
+│   ├── Collaboration
+│   └── Coaching Developers
+│
+├── 3. Programming Knowledge
+│   ├── Languages
+│   │   ├── Java / Kotlin / Scala
+│   │   ├── Python
+│   │   ├── JavaScript / TypeScript
+│   │   ├── Go / Ruby
+│   │   └── .NET Ecosystem
+│   │
+│   └── Paradigms
+│       ├── OOP
+│       ├── Functional Programming
+│       └── Reactive Programming
+│
+├── 4. Design Principles & Patterns
+│   ├── SOLID
+│   ├── TDD / DDD
+│   ├── MVC / MVP / MVVM
+│   ├── CQRS
+│   ├── Eventual Consistency
+│   └── ACID & CAP Theorem
+│
+├── 5. Architecture Styles
+│   ├── Monolith
+│   ├── Client-Server
+│   ├── Microservices
+│   ├── Serverless
+│   ├── Layered Architecture
+│   ├── SOA
+│   └── Distributed Systems
+│
+├── 6. Web & Mobile Architecture
+│   ├── SPA / SSR / SSG
+│   ├── Micro-Frontends
+│   ├── W3C & WHATWG Standards
+│   └── React / Vue / Angular
+│
+├── 7. APIs & Integrations
+│   ├── REST
+│   ├── GraphQL
+│   ├── gRPC
+│   ├── SOAP / ESB
+│   ├── Messaging Queues
+│   └── BPM / BPEL
+│
+├── 8. Data & Analytics
+│   ├── SQL Databases
+│   ├── NoSQL Databases
+│   ├── ETL Pipelines
+│   ├── Data Warehousing
+│   └── Analytics (Spark, Hadoop)
+│
+├── 9. Security
+│   ├── Authentication & Authorization
+│   ├── Hashing Algorithms
+│   ├── PKI
+│   ├── OWASP Top 10
+│   └── Security Best Practices
+│
+├── 10. DevOps & Operations
+│   ├── CI / CD
+│   ├── Containers (Docker)
+│   ├── Infrastructure as Code
+│   ├── Cloud Providers
+│   ├── Linux / Unix
+│   ├── Service Mesh
+│   └── Cloud Design Patterns
+│
+├── 11. Networking Fundamentals
+│   ├── OSI Model
+│   ├── TCP/IP
+│   ├── HTTP / HTTPS
+│   ├── Proxies
+│   └── Firewalls
+│
+├── 12. Tools
+│   ├── Git & GitHub
+│   ├── Slack
+│   ├── Jira / Trello
+│   └── Atlassian Tools
+│
+├── 13. Management & Process
+│   ├── Agile & Scrum
+│   ├── Kanban
+│   ├── SAFe / LeSS
+│   └── XP
+│
+├── 14. Enterprise Software
+│   ├── SAP (ERP, HANA)
+│   ├── Salesforce
+│   ├── MS Dynamics
+│   ├── IBM BPM
+│   └── EMC DMS
+│
+└── 15. Soft Skills
+    ├── Documentation
+    ├── Communication
+    ├── Estimation
+    ├── Decision Making
+    ├── Mentoring
+    └── Consulting

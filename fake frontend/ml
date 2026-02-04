@@ -1,0 +1,132 @@
+Machine Learning
+│
+├── 1. Introduction
+│   ├── What is Machine Learning?
+│   ├── ML Engineer vs AI Engineer
+│   └── Skills & Responsibilities
+│
+├── 2. Mathematical Foundations
+│   ├── Calculus
+│   │   ├── Derivatives & Partial Derivatives
+│   │   ├── Chain Rule
+│   │   └── Gradients, Jacobian, Hessian
+│   │
+│   ├── Linear Algebra
+│   │   ├── Matrices & Matrix Operations
+│   │   ├── Vectors & Tensors
+│   │   ├── Eigenvalues & Diagonalization
+│   │   └── SVD
+│   │
+│   └── Probability & Statistics
+│       ├── Random Variables
+│       ├── Bayes Theorem
+│       ├── Distributions
+│       └── Basic Probability Rules
+│
+├── 3. Programming Foundations
+│   ├── Python
+│   │   ├── Syntax & Data Types
+│   │   ├── Loops & Conditionals
+│   │   ├── Functions & Exceptions
+│   │   └── OOP Concepts
+│   │
+│   └── Essential Libraries
+│       ├── NumPy
+│       ├── Pandas
+│       ├── Matplotlib
+│       └── Seaborn
+│
+├── 4. Data Handling
+│   ├── Data Sources
+│   │   ├── Databases (SQL / NoSQL)
+│   │   ├── APIs
+│   │   └── Files (CSV, JSON, Excel)
+│   │
+│   ├── Data Cleaning
+│   │   ├── Handling Missing Values
+│   │   ├── Feature Engineering
+│   │   ├── Scaling & Normalization
+│   │   └── Dimensionality Reduction
+│   │
+│   └── Data Splitting
+│       ├── Train / Test Split
+│       └── Validation Sets
+│
+├── 5. Machine Learning Core
+│   ├── Types of ML
+│   │   ├── Supervised Learning
+│   │   ├── Unsupervised Learning
+│   │   ├── Semi-Supervised Learning
+│   │   └── Reinforcement Learning
+│   │
+│   ├── Supervised Learning
+│   │   ├── Classification
+│   │   │   ├── KNN
+│   │   │   ├── Logistic Regression
+│   │   │   ├── SVM
+│   │   │   ├── Decision Trees
+│   │   │   └── Random Forest
+│   │   │
+│   │   └── Regression
+│   │       ├── Linear Regression
+│   │       ├── Polynomial Regression
+│   │       ├── Ridge / Lasso
+│   │       └── ElasticNet
+│   │
+│   └── Unsupervised Learning
+│       ├── Clustering
+│       │   ├── K-Means
+│       │   ├── Hierarchical
+│       │   └── DBSCAN
+│       │
+│       └── Dimensionality Reduction
+│           ├── PCA
+│           └── Autoencoders
+│
+├── 6. Model Evaluation
+│   ├── Metrics
+│   │   ├── Accuracy
+│   │   ├── Precision / Recall
+│   │   ├── F1 Score
+│   │   ├── ROC-AUC
+│   │   └── Confusion Matrix
+│   │
+│   └── Validation Techniques
+│       ├── K-Fold Cross Validation
+│       └── Leave-One-Out (LOOCV)
+│
+├── 7. Deep Learning
+│   ├── Neural Network Basics
+│   │   ├── Perceptron
+│   │   ├── Forward & Backpropagation
+│   │   ├── Activation Functions
+│   │   └── Loss Functions
+│   │
+│   ├── Deep Learning Libraries
+│   │   ├── TensorFlow
+│   │   ├── Keras
+│   │   └── PyTorch
+│   │
+│   ├── Architectures
+│   │   ├── CNNs
+│   │   ├── RNNs
+│   │   ├── LSTM / GRU
+│   │   └── Transformers
+│   │
+│   └── Applications
+│       ├── Image Classification
+│       ├── Image Segmentation
+│       ├── NLP
+│       └── Recommendation Systems
+│
+├── 8. Advanced ML
+│   ├── Attention Mechanisms
+│   ├── GANs
+│   ├── Explainable AI (XAI)
+│   └── Model Optimization
+│
+└── 9. Keep Learning
+    ├── MLOps
+    ├── AI Engineering
+    ├── Data Science
+    └── AI Agents

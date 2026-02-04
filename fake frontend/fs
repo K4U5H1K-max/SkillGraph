@@ -1,0 +1,51 @@
+FULL STACK DEVELOPER
+│
+├── Frontend Foundations
+│   ├── HTML
+│   ├── CSS
+│   ├── JavaScript
+│   │   ├── Static Webpages (Checkpoint)
+│   │   ├── Interactivity
+│   │   ├── Collaborative Work
+│   │   └── External Packages (npm)
+│
+├── Frontend Frameworks
+│   ├── React
+│   └── Tailwind CSS
+│
+├── Version Control
+│   ├── Git
+│   └── GitHub
+│
+├── Backend Development
+│   ├── Node.js
+│   │   ├── CLI Apps (Checkpoint)
+│   │   └── CRUD Applications
+│   ├── RESTful APIs
+│   ├── JWT Authentication
+│   ├── Redis
+│   └── PostgreSQL
+│
+├── DevOps Basics
+│   ├── Linux Basics
+│   ├── AWS Core Services
+│   │   ├── EC2
+│   │   ├── S3
+│   │   ├── VPC
+│   │   ├── Route53
+│   │   └── SES
+│
+├── CI / CD & Automation
+│   ├── GitHub Actions
+│   ├── Ansible
+│   └── Terraform
+│
+├── Monitoring & Deployment
+│   ├── Monit
+│   └── Deployment Checkpoints
+│
+└── Continue Learning
+    ├── Frontend
+    ├── Backend
+    ├── DevOps
+    └── AWS
