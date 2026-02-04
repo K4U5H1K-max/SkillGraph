@@ -1,0 +1,105 @@
+###############################################
+# Project .gitignore — sensitive + generated  #
+###############################################
+
+# --- Environment & Secrets ---
+# Root and variant env files containing API keys/secrets
+.env
+.env.*
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Common private keys and certificates
+id_rsa
+id_dsa
+id_ed25519
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.keystore
+
+# Token/secret files
+*secret*
+*token*
+*credentials*
+
+# --- Python Artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Node/Frontend Artifacts ---
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+# --- Logs & DBs ---
+logs/
+*.log
+*.sqlite
+*.db
+*.db-journal
+
+# --- Editor/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Repo-specific generated outputs ---
+# Conversion pipeline output products (generated JSON maps/semantics)
+conversion/output/
+
+# If any temporary inputs or scratch files are created, ignore here:
+# conversion/input/tmp/
+
+# LLM/client test outputs (if any)
+llm/__pycache__/
+conversion/__pycache__/
+
+# Backend build/temporary outputs (if produced)
+backend/__pycache__/
+
+# Optional: ignore local runtime config not meant for source control
+# frontend/.env.local
+# frontend/.vercel
+
+# Keep data/ source content tracked; do NOT ignore
+# If there are large raw datasets to ignore, add specific paths below
+# data/**/raw/
