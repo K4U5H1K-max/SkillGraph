@@ -54,7 +54,7 @@ This project orchestrates a **complete personalized learning experience** throug
 
 ### 🌐 **Web Application** (Recommended)
 
-> 💎 Beautiful, minimalist UI with curved design and smooth animations
+> 💎 Beautiful, minimalistic UI with **animated landing page**, curved design, and smooth transitions
 
 **⚡ Quick Start:**
 ```bash
@@ -66,10 +66,17 @@ start.bat
 
 # 🐧 Manual startup:
 python app.py                              # 🔧 Backend server
-cd frontend && python -m http.server 8000  # 🎨 Frontend server
 ```
 
-**🌍 Access:** Open [`http://localhost:8000`](http://localhost:8000) in your browser
+**🌍 Access:** 
+- Landing Page: [`http://localhost:5000`](http://localhost:5000)
+- Direct Role Selection: [`http://localhost:5000/index.html`](http://localhost:5000/index.html)
+
+**✨ Features:**
+- 🎨 Animated landing page with smooth transitions
+- 🎯 Interactive role selection with hover effects
+- 💬 Real-time conversation interface
+- 📊 Beautiful roadmap visualization
 
 ---
 

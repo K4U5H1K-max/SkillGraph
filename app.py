@@ -7,7 +7,7 @@ Handles roadmap loading, conversation, and personalization
 import os
 import sys
 from pathlib import Path
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, send_from_directory
 from flask_cors import CORS
 
 # Add modules to path
@@ -256,6 +256,20 @@ def download_roadmap(role_key):
 def health():
     """Health check endpoint"""
     return jsonify({'status': 'ok'})
+
+
+@app.route('/')
+def serve_landing():
+    """Serve the landing page"""
+    frontend_dir = project_root / 'frontend'
+    return send_from_directory(frontend_dir, 'landing.html')
+
+
+@app.route('/<path:path>')
+def serve_static(path):
+    """Serve static files from frontend directory"""
+    frontend_dir = project_root / 'frontend'
+    return send_from_directory(frontend_dir, path)
 
 
 if __name__ == '__main__':

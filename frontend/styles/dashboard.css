@@ -30,6 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    position: relative;
 }
 
 .container {
@@ -38,10 +39,61 @@ body {
     margin: 0 auto;
 }
 
+.fade-in-from-landing {
+    animation: fadeInFromLanding 0.8s ease-out;
+}
+
+@keyframes fadeInFromLanding {
+    from {
+        opacity: 0;
+        transform: scale(1.05);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.back-button {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--bg-secondary);
+    border: 1.5px solid var(--border);
+    border-radius: 50px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.back-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: var(--shadow-md);
+    transform: translateX(-4px);
+}
+
+.back-button svg {
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover svg {
+    transform: translateX(-4px);
+}
+
 .header {
     text-align: center;
     margin-bottom: 4rem;
-    animation: fadeInDown 0.6s ease-out;
+    animation: fadeInDown 0.8s ease-out 0.2s both;
 }
 
 .title {
@@ -62,7 +114,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
-    animation: fadeInUp 0.6s ease-out 0.2s both;
+    animation: fadeInUp 0.8s ease-out 0.4s both;
 }
 
 .role-card {
